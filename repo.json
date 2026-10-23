@@ -1,6 +1,0 @@
-{
-  "description": "YouTube transcripts that work from cloud servers (AWS, GCP, Azure, Colab) where YouTube blocks direct requests. Python, timed snippets, auto-caption labels.",
-  "topics": ["youtube", "youtube-transcript", "youtube-transcript-api", "youtube-captions", "transcripts", "subtitles", "python", "rag", "apify", "llm"],
-  "message": "youtube-transcript-cloud 0.1.0",
-  "summary": "A free, MIT-licensed Python client for people whose youtube-transcript-api code gets blocked on cloud servers. Every call runs our paid YouTube tool on Apify. Published under the anonymous Honest Data name."
-}
