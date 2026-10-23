@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "youtube-transcript-cloud"
+version = "0.1.0"
+description = "YouTube transcripts that work from cloud servers (AWS, GCP, Azure, Colab): timed snippets, auto-caption labels, coverage."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Honest Data" }]
+requires-python = ">=3.8"
+dependencies = []
+keywords = ["youtube", "transcript", "captions", "subtitles", "youtube-transcript-api", "apify", "rag"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Multimedia :: Video",
+]
+
+[project.urls]
+Homepage = "https://github.com/Gwapspec/youtube-transcript-cloud"
+"Hosted tool" = "https://apify.com/honestdata/youtube-transcript-scraper"
+
+[tool.setuptools]
+packages = ["youtube_transcript_cloud"]
