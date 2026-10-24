@@ -11,7 +11,8 @@
 
 **This client** sends the request to a hosted tool instead:
 - The [YouTube Transcript Scraper](https://apify.com/honestdata/youtube-transcript-scraper) on Apify
-  handles the proxies.
+  handles the proxies. You don't need a proxy account of your own (Webshare or any other): they're
+  included in the price per transcript.
 - It tries a data-center IP first and moves to a residential one when YouTube refuses.
 - It returns the same timed snippets, plus the facts you need before you trust a transcript.
 
